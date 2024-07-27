@@ -10,6 +10,10 @@ public class CopyConstructors {
         s2.name="Kalu";
         s2.rollNO=120;  
 
+        Student s3=new Student(s1);
+        s3.name="tinku";
+        s3.rollNO=121;  
+
         System.out.println(s1.name+" "+s1.clas+", "+s2.name+" "+s2.clas);
     }
 }
